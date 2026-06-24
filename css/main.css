@@ -9,3 +9,10 @@
     max-width: 1240px;
     margin: 0 auto;
 }
+
+.area {
+    background-image: url(//images/images/timurid\ imper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
