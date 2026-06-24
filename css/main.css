@@ -19,3 +19,50 @@
     height: 800px;
 }
 
+#box {
+    opacity: 0;
+    transform: translateY(-10px);
+    transform: all 0.3s allow-disrete;
+
+
+    position-anchor: --anchor;
+    top: anchor(bottom);
+    left: anchor(left);
+
+
+
+
+
+    margin: 0;
+}
+
+#box:popover-open {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1.8s ease; 
+}
+
+@starting-style {
+    #box:popover-open {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: transform 0.3s ease; 
+    }
+}
+
+#anchor {
+    anchor-name: --anchor;
+}
+
+#box{
+    background-color: rgba(186, 1, 1, 0.589);
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 20px;
+    border: 5px solid rgba(186, 1, 1, 0.682);
+}
+#boxbutton{
+    padding: 5px;
+    border-radius: 20px;
+    border: 5px solid rgb(146, 0, 0);
+}
