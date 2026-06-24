@@ -11,8 +11,11 @@
 }
 
 .area {
-    background-image: url(//images/images/timurid\ imper.jpg);
+    background-image: url(../images/images/timurid--imper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    height: 800px;
 }
+
